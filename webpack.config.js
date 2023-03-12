@@ -47,7 +47,7 @@ module.exports = {
                 filename: '[name]-[hash].css'
             }
         ),
-        new TsCheckerPlugin()
+        new TsCheckerPlugin(),
     ].filter(Boolean),
     module:
         {
