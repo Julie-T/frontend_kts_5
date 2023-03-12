@@ -8,10 +8,6 @@ import "config/configureMobX";
 import 'regenerator-runtime';
 
 render(
-//     <div className={styles.title}>
-//     React приложение
-//     <div className={styles.picture}/>
-// </div>
     <React.StrictMode>
         <App />
     </React.StrictMode>
