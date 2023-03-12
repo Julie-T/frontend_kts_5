@@ -1,1 +1,0 @@
-export { RepositoryDescription } from "./RepositoryDescription";
