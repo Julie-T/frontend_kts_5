@@ -1,0 +1,14 @@
+* {
+  overflow: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+input, button, {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: inherit;
+  outline: 0;
+}

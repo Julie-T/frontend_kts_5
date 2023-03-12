@@ -1,0 +1,74 @@
+@import 'styles/ColorVariables.scss';
+
+.block_type_select {
+    display: flex;
+    overflow: auto;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-family: Roboto-Regular, Arial, sans-serif;
+}
+.type_select_title {
+    display: inline-block;
+}
+.type_select_title_list_block {
+    display: inline-block;
+}
+.type_select_title {
+    font-weight: 700;
+    font-size: 24px;
+}
+.type_select_chosen_element {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 50px;
+    padding: 12px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    font-size: 14px;
+    color:#7E7E7E;
+    align-items: center;
+}
+.type_select_list {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    /*margin-top: 50px;*/
+    /*margin-left: 163px;*/
+    color:#7E7E7E;
+}
+.type_select_chosen_element:hover {
+    cursor: pointer;
+}
+.type_select_list_element_input {
+    position: absolute;
+    z-index: -1;
+    width: 160px;
+    height: 50px;
+    padding: 12px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 14px;
+    align-items: center;
+}
+.type_select_list_element_input:hover {
+    cursor: pointer;
+    background-color: #ff8282;
+    border: #FF5555;
+}
+.type_select_list_element_input:checked {
+    background-color: #ff8282;
+    border: #FF5555;
+}
+.type_select_list_element_input_text {
+    display: flex;
+    width: 160px;
+    height: 50px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+}

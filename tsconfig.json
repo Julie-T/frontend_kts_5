@@ -2,12 +2,12 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "components": ["components"],
-//      "@components/*": ["components/*"],
-//      "@config/*": ["config/*"],
-//      "@styles/*": ["styles/*"],
-//      "@utils/*": ["utils/*"],
-//      "@models/*": ["models/*"]
+      "store/*": ["store/*"],
+      "config/*": ["config/*"],
+      "styles/*": ["styles/*"],
+      "utils/*": ["utils/*"],
+      "models/*": ["models/*"],
+      "components/*": ["components/*"],
     },
     "noEmit": true,
     "allowJs": true,

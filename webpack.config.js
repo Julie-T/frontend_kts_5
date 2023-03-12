@@ -84,6 +84,7 @@ module.exports = {
             styles: path.join(srcPath, 'styles'),
             utils: path.join(srcPath, 'utils'),
             models: path.join(srcPath, 'models'),
+            store: path.join(srcPath, 'store'),
         }
     },
     devServer:{
