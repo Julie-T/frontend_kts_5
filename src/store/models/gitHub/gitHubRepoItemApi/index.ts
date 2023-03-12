@@ -1,1 +1,1 @@
-export {gitHubRepoItemApi, gitHubRepoItemModel, dateOptionsType, DateType, normalizeGitHubRepoItem} from "./gitHubRepoItemApi";
+export {gitHubRepoItemApi, gitHubRepoItemModel, dateOptionsType, normalizeGitHubRepoItem} from "./gitHubRepoItemApi";

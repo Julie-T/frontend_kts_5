@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "store/*": ["src/store/*"],
-      "config/*": ["src/config/*"],
-      "styles/*": ["src/styles/*"],
-      "utils/*": ["src/utils/*"],
-      "models/*": ["src/models/*"],
-      "components/*": ["src/components/*"],
-
+      "store/*": ["store/*"],
+      "config/*": ["config/*"],
+      "styles/*": ["styles/*"],
+      "utils/*": ["utils/*"],
+      "models/*": ["models/*"],
+      "components/*": ["components/*"],
     },
     "noEmit": true,
     "allowJs": true,
