@@ -4,7 +4,7 @@ import {
   normalizeGitHubRepoOwner,
 } from "../gitHubRepoOwnerApi";
 
-export type gitHubRepoItemApi = {
+type gitHubRepoItemApi = {
   name: string;
   html_url: string;
   stargazers_count: number;
@@ -22,7 +22,7 @@ export type gitHubRepoItemApi = {
   template: boolean;
 };
 
-export type gitHubRepoItemModel = {
+type gitHubRepoItemModel = {
   name: string;
   htmlUrl: string;
   stargazersCount: number;
@@ -40,13 +40,13 @@ export type gitHubRepoItemModel = {
   template: boolean;
 };
 
-export const dateOptionsType: DateType = { month: "short", day: "numeric" };
+const dateOptionsType: DateType = { month: "short", day: "numeric" };
 export type DateType = {
   month: "short";
   day: "numeric";
 };
 
-export const normalizeGitHubRepoItem = (
+const normalizeGitHubRepoItem = (
   from: gitHubRepoItemApi
 ): gitHubRepoItemModel => ({
   htmlUrl: from.html_url,
@@ -68,3 +68,4 @@ export const normalizeGitHubRepoItem = (
   mirror: from.mirror,
   template: from.template,
 });
+export {gitHubRepoItemApi,  gitHubRepoItemModel, dateOptionsType, normalizeGitHubRepoItem}
